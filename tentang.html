@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentang Kami — Dapur Rempah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Dapur <b>Rempah</b></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu">&#9776;</button>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tentang.html" class="active">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero">
+    <p class="eyebrow">About Us</p>
+    <h1>Perjalanan kami meracik rasa rumah</h1>
+  </div>
+
+  <section style="padding-top:0;">
+    <div class="section-inner grid-2" style="align-items:center;">
+      <div>
+        <p>Dapur Rempah berdiri pada tahun 2010 dari dapur rumah seorang ibu yang gemar memasak untuk tetangga dan keluarga besar. Apa yang dimulai sebagai katering kecil kini tumbuh menjadi restoran yang dipercaya ratusan tamu setiap minggunya.</p>
+        <p>Kami percaya bahwa masakan terbaik lahir dari bumbu yang diracik dengan sabar dan bahan yang dipilih dengan teliti. Itulah mengapa hingga hari ini, seluruh bumbu dasar kami masih digiling manual setiap pagi sebelum restoran buka.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=700&q=80" alt="Chef Dapur Rempah menyiapkan bumbu" style="border-radius:6px;">
+    </div>
+  </section>
+
+  <div class="rempah-divider"><span></span></div>
+
+  <section style="padding-top:0;">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Visi &amp; Misi</p>
+        <h2>Apa yang kami pegang teguh</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Visi</h3>
+          <p>Menjadi rumah makan Nusantara pilihan utama yang menghadirkan rasa otentik di tengah kota.</p>
+        </div>
+        <div class="card">
+          <h3>Misi</h3>
+          <p>Menjaga resep tradisional, menggunakan bahan lokal segar, dan melayani setiap tamu seperti keluarga sendiri.</p>
+        </div>
+        <div class="card">
+          <h3>Nilai</h3>
+          <p>Kejujuran rasa, konsistensi kualitas, dan keramahan dalam setiap pelayanan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Tim Kami</p>
+        <h2>Orang-orang di balik dapur</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&q=80" alt="Foto Ibu Sari, Head Chef">
+          <h3>Ibu Sari</h3>
+          <p>Head Chef &amp; Pendiri — pemegang resep asli keluarga sejak 2010.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=400&q=80" alt="Foto Pak Budi, Sous Chef">
+          <h3>Pak Budi</h3>
+          <p>Sous Chef — bertanggung jawab atas konsistensi rasa setiap hari.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&q=80" alt="Foto Mbak Rani, Manajer Restoran">
+          <h3>Mbak Rani</h3>
+          <p>Manajer Restoran — memastikan pengalaman tamu selalu hangat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <a href="index.html" class="brand" style="color:var(--cream);">Dapur <b style="color:var(--turmeric);">Rempah</b></a>
+      <p style="margin-top:.8rem;opacity:.8;font-size:.9rem;">Masakan Nusantara dengan bumbu racikan sendiri, sejak 2010.</p>
+    </div>
+    <div>
+      <h3>Navigasi</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tentang.html">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Hubungi Kami</h3>
+      <ul>
+        <li>Jl. Kenanga No. 12, Semarang</li>
+        <li>(024) 123-4567</li>
+        <li>halo@dapurrempah.id</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 Dapur Rempah. Seluruh hak cipta dilindungi.</p>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function(){
+    document.getElementById('navList').classList.toggle('open');
+  });
+</script>
+</body>
+</html>

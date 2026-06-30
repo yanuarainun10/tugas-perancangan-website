@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak — Dapur Rempah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Dapur <b>Rempah</b></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu">&#9776;</button>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tentang.html">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero">
+    <p class="eyebrow">Contact</p>
+    <h1>Mari berbincang dengan kami</h1>
+    <p>Ada pertanyaan, ingin reservasi, atau pesan catering? Isi formulir di bawah atau hubungi kami langsung.</p>
+  </div>
+
+  <section style="padding-top:0;">
+    <div class="section-inner contact-wrap">
+
+      <form class="card" action="#" method="post">
+        <div class="field">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+          </div>
+          <div class="field">
+            <label for="telepon">No. Telepon</label>
+            <input type="tel" id="telepon" name="telepon" placeholder="08xx-xxxx-xxxx">
+          </div>
+        </div>
+        <div class="field">
+          <label for="topik">Topik</label>
+          <select id="topik" name="topik">
+            <option value="reservasi">Reservasi Meja</option>
+            <option value="catering">Pemesanan Catering</option>
+            <option value="kerjasama">Kerja Sama</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" placeholder="Tulis pesan Anda di sini..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="border:none;cursor:pointer;">Kirim Pesan</button>
+      </form>
+
+      <div>
+        <ul class="info-list">
+          <li>
+            <div>
+              <b>Alamat</b>
+              <span>Jl. Kenanga No. 12, Semarang, Jawa Tengah</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Telepon</b>
+              <span><a href="tel:+6224123456">(024) 123-4567</a></span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Email</b>
+              <span><a href="mailto:halo@dapurrempah.id">halo@dapurrempah.id</a></span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Jam Operasional</b>
+              <span>Senin–Minggu, 10.00 – 21.00 WIB</span>
+            </div>
+          </li>
+        </ul>
+        <iframe class="map-frame" loading="lazy"
+          src="https://www.google.com/maps?q=Semarang,Jawa%20Tengah&output=embed">
+        </iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <a href="index.html" class="brand" style="color:var(--cream);">Dapur <b style="color:var(--turmeric);">Rempah</b></a>
+      <p style="margin-top:.8rem;opacity:.8;font-size:.9rem;">Masakan Nusantara dengan bumbu racikan sendiri, sejak 2010.</p>
+    </div>
+    <div>
+      <h3>Navigasi</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tentang.html">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Hubungi Kami</h3>
+      <ul>
+        <li>Jl. Kenanga No. 12, Semarang</li>
+        <li>(024) 123-4567</li>
+        <li>halo@dapurrempah.id</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 Dapur Rempah. Seluruh hak cipta dilindungi.</p>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function(){
+    document.getElementById('navList').classList.toggle('open');
+  });
+</script>
+</body>
+</html>

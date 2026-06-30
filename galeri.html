@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri — Dapur Rempah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Dapur <b>Rempah</b></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu">&#9776;</button>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tentang.html">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html" class="active">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero">
+    <p class="eyebrow">Gallery</p>
+    <h1>Momen di Dapur Rempah</h1>
+    <p>Sebagian dokumentasi hidangan dan suasana restoran kami.</p>
+  </div>
+
+  <section style="padding-top:0;">
+    <div class="section-inner">
+      <div class="gallery-grid">
+        <a href="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=80" alt="Suasana dapur">
+        </a>
+        <a href="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=500&q=80" alt="Hidangan rendang">
+        </a>
+        <a href="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=500&q=80" alt="Sate ayam bakar">
+        </a>
+        <a href="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=500&q=80" alt="Ruang makan restoran">
+        </a>
+        <a href="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500&q=80" alt="Meja makan tertata">
+        </a>
+        <a href="https://images.unsplash.com/photo-1432139509613-5c4255815697?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?w=500&q=80" alt="Minuman segar">
+        </a>
+        <a href="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=500&q=80" alt="Proses memasak">
+        </a>
+        <a href="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=500&q=80" alt="Hidangan penutup">
+        </a>
+        <a href="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=80" alt="Tampilan makanan dari atas">
+        </a>
+      </div>
+      <p style="margin-top:1.2rem;font-size:.85rem;opacity:.7;">Klik foto untuk melihat ukuran penuh.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <a href="index.html" class="brand" style="color:var(--cream);">Dapur <b style="color:var(--turmeric);">Rempah</b></a>
+      <p style="margin-top:.8rem;opacity:.8;font-size:.9rem;">Masakan Nusantara dengan bumbu racikan sendiri, sejak 2010.</p>
+    </div>
+    <div>
+      <h3>Navigasi</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tentang.html">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Hubungi Kami</h3>
+      <ul>
+        <li>Jl. Kenanga No. 12, Semarang</li>
+        <li>(024) 123-4567</li>
+        <li>halo@dapurrempah.id</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 Dapur Rempah. Seluruh hak cipta dilindungi.</p>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function(){
+    document.getElementById('navList').classList.toggle('open');
+  });
+</script>
+</body>
+</html>

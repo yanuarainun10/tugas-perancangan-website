@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dapur Rempah — Restoran Masakan Nusantara</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">Dapur <b>Rempah</b></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu">&#9776;</button>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="tentang.html">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Restoran Keluarga Sejak 2010</p>
+      <h1>Cita rasa rempah <em>asli Nusantara</em>, disajikan hangat untuk Anda</h1>
+      <p class="lede">Dapur Rempah menghadirkan masakan tradisional Indonesia dengan bumbu racikan sendiri, bahan segar pilihan, dan suasana yang nyaman untuk keluarga maupun acara spesial Anda.</p>
+      <a href="kontak.html" class="btn btn-primary">Reservasi Meja</a>
+      <a href="layanan.html" class="btn btn-ghost">Lihat Menu</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80" alt="Hidangan khas Dapur Rempah">
+      <div class="hero-stats">
+        <b>14 Thn</b>
+        <span>Melayani Sepenuh Hati</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="rempah-divider"><span></span></div>
+
+  <section>
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Mengapa Dapur Rempah</p>
+        <h2>Tiga alasan tamu kami selalu kembali</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Bumbu Racikan Sendiri</h3>
+          <p>Setiap bumbu digiling dan diracik langsung di dapur kami setiap pagi, tanpa bahan instan.</p>
+        </div>
+        <div class="card">
+          <h3>Bahan Segar Harian</h3>
+          <p>Sayur, rempah, dan protein dipasok segar setiap hari dari pasar dan petani lokal.</p>
+        </div>
+        <div class="card">
+          <h3>Suasana Hangat</h3>
+          <p>Ruang makan didesain nyaman untuk keluarga, teman, hingga pertemuan bisnis santai.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-inner grid-2" style="align-items:center;">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700&q=80" alt="Suasana dapur Dapur Rempah" style="border-radius:6px;">
+      <div>
+        <p class="eyebrow">Menu Favorit</p>
+        <h2>Rendang, Sate, dan Sambal racikan turun-temurun</h2>
+        <p>Dari rendang yang dimasak berjam-jam hingga sambal yang diulek langsung di meja, setiap hidangan kami menyimpan resep keluarga yang dijaga kualitasnya selama lebih dari satu dekade.</p>
+        <a href="layanan.html" class="btn btn-primary">Lihat Selengkapnya</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <a href="index.html" class="brand" style="color:var(--cream);">Dapur <b style="color:var(--turmeric);">Rempah</b></a>
+      <p style="margin-top:.8rem;opacity:.8;font-size:.9rem;">Masakan Nusantara dengan bumbu racikan sendiri, sejak 2010.</p>
+    </div>
+    <div>
+      <h3>Navigasi</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tentang.html">About Us</a></li>
+        <li><a href="layanan.html">Services</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Hubungi Kami</h3>
+      <ul>
+        <li>Jl. Kenanga No. 12, Semarang</li>
+        <li>(024) 123-4567</li>
+        <li>halo@dapurrempah.id</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 Dapur Rempah. Seluruh hak cipta dilindungi.</p>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function(){
+    document.getElementById('navList').classList.toggle('open');
+  });
+</script>
+</body>
+</html>
